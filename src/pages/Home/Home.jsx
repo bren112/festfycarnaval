@@ -14,7 +14,7 @@ function Home() {
              <img src={logodiretoria} id='logo' alt="" srcset="" />
              <img src={homens} alt="" srcset="" id='homens'/>
                     <Link to="/dados">
-                        <button>QUERO IR!</button>
+                        <button id='queroIr'>QUERO IR!</button>
                     </Link>
                 </div>
                 
