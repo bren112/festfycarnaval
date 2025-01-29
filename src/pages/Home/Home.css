@@ -8,42 +8,19 @@
     background-color: black;
     color: white;
 }
-#queroIr {
+#queroIr{
     background-color: #FB72B0;
     width: 14pc;
     height: 3pc;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.2pc;
-    font-weight: 700;
-    border-radius: 12px;
-    border: 3px solid #ff2e63;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
     position: relative;
     top: -3pc;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    box-shadow: 
-        0px 5px 0px #d1c51a, /* Sombra interna */
-        0px 10px 15px rgba(0, 0, 0, 0.8); /* Sombra externa forte */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
-
-/* Efeito de clique */
-#queroIr:active {
-    top: calc(-3pc + 3px);
-    box-shadow: 
-        0px 2px 0px #abb017,
-        0px 5px 10px rgba(0, 0, 0, 0.8);
-}
-
-/* Efeito neon quando passa o mouse */
-#queroIr:hover {
-    background-color: #ff4880;
-    box-shadow: 
-        0px 5px 0px #000000, 
-        0px 10px 25px rgba(255, 0, 100, 0.9);
-}
-
 @media screen and (max-width: 768px) {
 .container{
     display: flex;
