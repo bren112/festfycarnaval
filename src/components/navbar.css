@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#logoHeader {
+width: 6pc;
+margin-right: 2pc;
+}
+
+.logo {
+  display: flex;
+  
+}
+
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ter);
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 8vh;
+  background-color: var(--primary);
+  align-items: center;
+  gap: 0pc;
+}
+
+.nav__brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.nav__toggler div {
+  width: 4.5rem;
+  height: 0.8rem;
+  margin: 0.4rem;
+  background: #66339900;
+  transition: 0.4s ease-in;
+  border-radius: 2pc;
+  border: solid 2.2px black;
+ 
+}
+.nav__toggler {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: var(--primary);
+    align-items: center;
+    gap: 7pc;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background-color: var(--primary);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    z-index: 1000; /* Ensure the menu is on top */
+  }
+}
+
+.nav__active {
+  transform: translateX(0);
+}
+
+.toogle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toogle .line2 {
+  opacity: 0;
+}
+
+.toogle .line3 {
+  transform: rotate(-45deg) translate(-4px, -5px);
+}
