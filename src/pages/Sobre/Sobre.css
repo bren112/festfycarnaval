@@ -16,6 +16,7 @@
     font-family: "DynaPuff", system-ui;
 
 }
+
 #imgSobre{
     width: 28pc;
     animation: pulsar 3s ease-in-out infinite;
@@ -45,6 +46,7 @@
 .accordion {
     margin: 20px auto;
     max-width: 800px;
+        margin: 1pc;
   
     border-radius: 5px;
 }
@@ -136,8 +138,8 @@
     border: none;
     border-radius: 2pc;
     font-size: 1.9pc;
-    font-family: "Danfo", serif;
-    font-optical-sizing: auto;
+    /* font-family: "Danfo", serif;
+    font-optical-sizing: auto; */
     color: rgb(255, 255, 255);
 }
 .btnlaranja button{

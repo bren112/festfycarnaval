@@ -2,6 +2,19 @@
 .container {
     display: flex;
     justify-content: space-around;
+}@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .container button{
@@ -29,9 +42,28 @@
 }
 .container #logo{
     width: 20pc;
+    animation: pulsar 3s ease-in-out infinite;
+    animation: cambalhota 1.5s ease-out forwards;
+
 }
 .container #homens{
    position: relative;
    top: -4pc;
+   animation: pulsar 3s ease-in-out infinite;
+
 }
 }
+@keyframes cambalhota {
+    0% {
+        transform: rotate(0deg) translateY(0);
+    }
+    50% {
+        transform: rotate(360deg) translateY(-100px);
+    }
+    100% {
+        transform: rotate(0deg) translateY(0);
+    }
+}
+
+
+
