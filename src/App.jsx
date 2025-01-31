@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Dados from "./pages/Dados/Dados";
 import Pag from "./pages/Pagamento/Pag";
 import Sobre from "./pages/Sobre/Sobre";
-
+import Atracoes from "./pages/Atracoes/Atracoes";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ function App() {
             <Route path="/dados" element={<Dados />} />
             <Route path="/pag" element={<Pag />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/atracoes" element={<Atracoes />} />
        
           </Routes>
         </div>

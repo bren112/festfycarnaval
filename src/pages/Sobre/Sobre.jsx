@@ -13,8 +13,9 @@ function Sobre() {
 
     return (
         <>
+        <div className="desktop">
         <br/>
-            <div className="container">
+            <div className="containerSobre">
                 <div className="btnpreto">
                 {/* <h1 id='title_saibaMais'>Saiba Mais!</h1> */}
                 <br/>
@@ -24,7 +25,7 @@ function Sobre() {
             <div className="centro">
                 {/* <img id='banner' src={festa} alt="" srcset="" /> */}
             </div>
-            </div>
+         
             <br />
             {/* <p id="title_acordion">SOBRE </p> */}
             <div className="accordion">
@@ -109,13 +110,14 @@ function Sobre() {
                     )}
                 </div>
             </div>
+
                     <div className="btnpreto">
-                    <Link to="/pagamento">
+                    <Link to="/pag">
 
             <button id='btn'>Quero Ir</button>
             </Link>
                 </div>
-                <br/>
+                <br/>   </div></div>
         </>
     );
 }

@@ -7,15 +7,28 @@ import homens from './homens.png'
 function Home() {
     return (
         <>
+        <h1 id='s'>SITE DISPONIVEL EXCLUSIVAMENTE P/ DISPOSITIVOS MOBILE!</h1>
           
             <br />
             <div className="container">
+                
+                <div className="esq">
+                <img src={logodiretoria} id='logo' alt="" srcset="" />
                 <br />
-             <img src={logodiretoria} id='logo' alt="" srcset="" />
-             <img src={homens} alt="" srcset="" id='homens'/>
-                    <Link to="/sobre">
+                <br />
+                <br />
+                <img src={homens} alt="" srcset="" id='homens'/>
+                </div>
+              
+              <div className="dir">
+              <img src={homens} alt="" srcset="" id='homensDesktop'/>
+
+              <Link to="/sobre">
                         <button id='queroIr'>VER MAIS!</button>
                     </Link>
+              </div>
+           
+                    
                 </div>
                 
          

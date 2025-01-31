@@ -21,5 +21,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #62F9F6;
+  /* background-color: #62F9F6; */
+  background: linear-gradient(135deg, #62F9F6, #2575fc);
+
 }
