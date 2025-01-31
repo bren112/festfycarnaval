@@ -1,4 +1,4 @@
-import './pag.css'
+import './Pag.css'
 import banner from './banner.png'
 function Pag() {
  return(
