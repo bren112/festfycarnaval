@@ -7,7 +7,7 @@ import homens from './homens.png'
 function Home() {
     return (
         <>
-        <h1 id='s'>SITE DISPONIVEL EXCLUSIVAMENTE P/ DISPOSITIVOS MOBILE!</h1>
+        <h1 id='s'> DISPONIVEL EXCLUSIVAMENTE P/ DISPOSITIVOS MOBILE!</h1>
           
             <br />
             <div className="container">
