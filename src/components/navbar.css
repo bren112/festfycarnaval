@@ -91,7 +91,7 @@ a {
     top: 7vh;
     right: 0;
     width: 50%;
-    height: 93vh;
+    height: 33vh;
     background-color: var(--primary);
     flex-direction: column;
     transform: translateX(100%);
