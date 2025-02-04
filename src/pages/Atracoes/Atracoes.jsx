@@ -4,6 +4,7 @@ import './Atracoes.css';
 import kuri from './kuri.png'
 import virtu from './virtu.png'
 import texto from './texto.png'
+import bri from './bri.png'
 function Atracoes() {
     const [progress, setProgress] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controle do modal
@@ -54,6 +55,15 @@ function Atracoes() {
             <img 
                 id="imgsobre" 
                 src={virtu} 
+                alt="DJ Virtu" 
+                onClick={openModal} 
+                style={{ cursor: 'pointer' }} 
+            />
+          <br />
+     
+            <img 
+                id="imgsobre" 
+                src={bri} 
                 alt="DJ Virtu" 
                 onClick={openModal} 
                 style={{ cursor: 'pointer' }} 
