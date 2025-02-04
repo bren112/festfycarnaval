@@ -37,31 +37,24 @@ function Sobre() {
                         🚫 Regras
                     </button>
                     {activeIndex === 0 && (
-                      <div className="accordion-content">
-                      <p id='regra'>
-                        Sejam todos muito bem-vindos, nossos queridos convidados, à nossa edição de Révellion, e para fazer jus à data, todos deverão ir ao menos com uma peça de roupa branca/clara!!
-                    
-                        <br/> 
-                        🗓️ 28/12
-                        <br/> 
-                        ⏰ 21:00 
-                        <br/> 
-                        📍Santa Rita do Passa Quatro
-                        <br/> 
-                        👔 Uma peça branca/clara
-                        <br/>
-                        ——————————————————
-                        <br/>
-                        Informações básicas‼️
-                        <br/><br/>
-                        
-                        1-) Estamos com o site totalmente autenticado, logo, todas as informações da festa serão divulgadas lá!!!
-                        <br/>
-                        2-) Todos devem fazer o cadastro no momento do pagamento, com nome completo e número de celular.
-                        <br/>
-                        3-) Grupo de whatsapp será utilizado apenas para rodar a lista de confirmados e determinados avisos.
-                      </p>
-                    </div>
+                 <div className="accordion-content">
+                 <p id='regra'>
+                   Prepare-se para a melhor festa de carnaval!🎊🔥
+               
+                   <br/>
+                   🚨Alguns spoilers! Desta vez, reconfiguramos todo o nosso set de DJ’s, conteremos com um artista que dividiu palco com estrelas da música nacional na maior festa universitária do Brasil, além disso, um paredão será o responsável de percutir o som para os nossos convidados!
+                   <br/>
+                   🌟 A vibe vai ser única, a magia carnavalesca tomará conta da nossa noite! Vá com seu abadá!
+                   <br/>
+                   🚫 Proibida a entrada de garrafas de vidro!
+                   <br/>
+                   🗓️ 08/03/2025
+                   <br/>
+                   ⏰ 21:00
+                   <br/>
+                   📍SRPQ
+                 </p>
+               </div>
                     
                     )}
                 </div>
